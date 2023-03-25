@@ -7,7 +7,7 @@
 3.仓库包含两个脚本：  
   `setup_docker.sh` :一键安装最新`Docker`脚本  
   `setup_sd.sh` :一键拉取个人封装的 `k7212519/stable-diffusion-webui` 镜像并安装  
-4.运行时仅需打开终端`Terminal`，依次输入以下命令，运行`setup_docker.sh`、`setup_sd.sh`即可：  
+4.运行时仅需打开终端`Terminal`，依次输入以下命令，依次运行`setup_docker.sh`、`setup_sd.sh`即可：  
 ``` bash
 ./setup_docker.sh
 ./setup_sd.sh  
