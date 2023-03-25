@@ -1,3 +1,4 @@
+![image](https://github.com/k7212519/stable-diffusion-webui-AMD-onekey-deploy/blob/main/screenshot/screenshot2.png)
 # stable-diffusion-webui-AMD-onekey-deploy
 适用于AMD显卡用户在`Ubuntu`中，一键安装`stable-diffusion-webui`。软件基于`Docker`运行，不依赖外部环境。  
 
@@ -23,3 +24,4 @@ sudo apt install xxx.deb
 amdgpu-install -y --usecase=graphics
 ```
 安装完成后，重新启动，在系统设置中看到显卡型号能正确识别后，继续使用该脚本安装`stable-diffusion-webui`。
+
