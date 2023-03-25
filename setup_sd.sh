@@ -4,7 +4,7 @@
 gnome-terminal -- docker run -it --network=host --device=/dev/kfd --device=/dev/dri --group-add=video --ipc=host --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --name=stable-diffusion -v $HOME/dockerx:/dockerx k7212519/stable-diffusion-webui
 
 # 等待容器启动
-until [ $(docker inspect -f '{{.State.Status}}' stable-diffusion) = "running" ]; do
+until [ "$(docker inspect -f '{{.State.Status}}' stable-diffusion)" = "running" ]; do
     sleep 1
 done
 
