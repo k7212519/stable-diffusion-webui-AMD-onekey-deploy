@@ -3,9 +3,9 @@
 适用于AMD显卡用户在`Ubuntu`中，一键安装`stable-diffusion-webui`。软件基于`Docker`运行，不依赖外部环境。  
 
 ## 介绍
-1.该脚本适用于`AMD rx500，rx6000`系列及其他专业显卡在`Ubuntu20`及以上版本系统中安装`stable-diffusion-webui`绘图软件。  rx7000系列好像不支持ROCm，暂时未知，无卡做测试。
+1.该脚本适用于`AMD rx5000，rx6000`系列及其他专业显卡在`Ubuntu20`及以上版本系统中安装`stable-diffusion-webui`绘图软件。rx500暂未适配，请期待后续更新， rx7000系列好像不支持ROCm，暂时未知，等这一代专业卡发布，应该就会一起官方适配了。
 2.`AMD`显卡无法在`Windows`系统中使用`ROCm`深度学习环境，发挥全部性能。目前`Windows`中的转译效率低，在Linux中安装`ROCm`运行`stable-diffusion`，跑图能力将成倍提升！  
-3.仓库包含两个脚本：  
+3.依次两个脚本：  
   `setup_docker.sh` :一键安装最新`Docker`脚本  
   `setup_sd.sh` :一键拉取个人封装的 `k7212519/stable-diffusion-webui` 镜像并安装  
 4.运行时仅需打开终端`Terminal`，依次输入以下命令，依次运行`setup_docker.sh`、`setup_sd.sh`即可：  
