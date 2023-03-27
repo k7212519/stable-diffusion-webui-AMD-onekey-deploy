@@ -5,7 +5,7 @@ gnome-terminal -- docker run -it --network=host --device=/dev/kfd --device=/dev/
 
 # 等待容器启动
 until [ "$(docker inspect -f '{{.State.Status}}' stable-diffusion)" = "running" ]; do
-    sleep 1
+    sleep 100
 done
 
 echo "docker is running..."
