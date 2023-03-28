@@ -1,0 +1,12 @@
+Ubuntu20.04.5 ISO镜像下载地址：
+天翼网盘：https://cloud.189.cn/t/FB36NrfuyuIr (提取码:nq45)
+百度网盘：https://pan.baidu.com/s/12688k-MGJWq7pWwQ1HLSyQ?pwd=91s7 （提取码:91s7）
+
+AMD显卡驱动下载地址：
+https://www.amd.com/zh-hans/support
+
+项目Github地址：
+https://github.com/k7212519/stable-diffusion-webui-AMD-onekey-deploy
+
+DockerHub首页地址：
+https://hub.docker.com/r/k7212519/stable-diffusion-webui/
