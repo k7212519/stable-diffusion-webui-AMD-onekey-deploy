@@ -38,6 +38,7 @@ do
   echo "2. RX 6700系列"
   echo "3. RX 6600系列"
   echo "4. RX 5000系列"
+  echo "5. RX Vega系列"
 
   read -p "请输入选项编号： " choice
 
@@ -60,6 +61,11 @@ do
     4)
       echo "您选择了 RX 5000"
       sudo cp -f GPU/rx5000.sh  $HOME/dockerx/sh/sd.sh
+      valid_choice=true
+      ;;
+     5)
+      echo "您选择了 RX Vega"
+      sudo cp -f GPU/rx_vega.sh  $HOME/dockerx/sh/sd.sh
       valid_choice=true
       ;;
     *)
