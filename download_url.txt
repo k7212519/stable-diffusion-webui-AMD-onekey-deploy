@@ -1,16 +1,25 @@
-Ubuntu20.04.5 ISO镜像下载地址：
-天翼网盘：https://cloud.189.cn/t/FB36NrfuyuIr (提取码:nq45)
-百度网盘：https://pan.baidu.com/s/12688k-MGJWq7pWwQ1HLSyQ?pwd=91s7 （提取码:91s7）
+## Ubuntu20.04.5 ISO镜像下载地址：  
+天翼网盘：https://cloud.189.cn/t/FB36NrfuyuIr (提取码:nq45)  
+百度网盘：https://pan.baidu.com/s/12688k-MGJWq7pWwQ1HLSyQ?pwd=91s7 （提取码:91s7）  
 
-AMD显卡驱动下载地址：
+## AMD显卡驱动下载地址：  
 https://www.amd.com/zh-hans/support
 
-Docker-StableDiffusionWebui-ROCm镜像拉取地址：
-https://cloud.189.cn/t/j6Bjmmy2Qveq (访问码:laz9)
-使用教程：
-在Windows中下载三个分卷后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。使用前请用sha256校验一下，和内部提供的sha256比对一下，避免文件损坏。
-确认文件完整性后，进入Ubuntu系统，复制该文件到主目录，在第一个脚本已经成功执行过的情况下，然后在主目录右键打开终端运行以下代码：
-docker import k7212519-stable-diffusion-webui
+
+## Docker镜像手动下载方法：
+Docker-StableDiffusionWebui-ROCm镜像地址：  
+https://cloud.189.cn/t/j6Bjmmy2Qveq (访问码:laz9)  
+没有baidu的会员，只能传这个了。  
+使用教程：  
+在Windows中下载三个分卷后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。  
+请尽量使用sha256校验一下"k7212519-stable-diffusion-webui"文件的完整性，和解压出来附带的文本文件内sha256进行比对，以确保文件完整性。不校验也性，但有一定概率文件损坏。 
+重启进入Ubuntu系统，在第一个脚本已经成功执行过的情况下，打开终端输入：  
+docker import 空格  
+再将解压出的文件拖到终端里  
+然后继续输入 空格 k7212519/stable-diffusion-webui  
+最终命令为：docker import 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui' k7212519/stable-diffusion-webui:
+确认无误后，回车运行。注意Docker名称请严格按照上面示范输入。否则其他脚本可能会找不到镜像。
+需要导入一段时间，请耐心等待 ... ...
 执行完成后，再运行第二个脚本即可无需从DockerHub仓库下载，直接跳过下载步骤。
 
 
