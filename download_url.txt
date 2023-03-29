@@ -8,18 +8,19 @@ https://www.amd.com/zh-hans/support
 
 ## Docker镜像手动下载方法：
 Docker-StableDiffusionWebui-ROCm镜像地址：  
-《请等待重新打上传》
+https://cloud.189.cn/t/FNjQjmr6JbM3 (访问码:78na)
 没有baidu的会员，只能传这个了。  
 使用教程：  
-在Windows中下载三个分卷后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。  
-请尽量使用sha256校验一下"k7212519-stable-diffusion-webui"文件的完整性，和解压出来附带的文本文件内sha256进行比对，以确保文件完整性。不校验也性，但有一定概率文件损坏。 
+在Windows中下载三个分卷后，解压出来，会得到"k7212519-stable-diffusion-webui-Rocm.tar"文件。  
+请尽量使用sha256校验一下"k7212519-stable-diffusion-webui"文件的完整性，和解压出来附带的文本文件内sha256进行比对，以确保文件完整性。不校验也性，但有小概率文件损坏。 
 重启进入Ubuntu系统，在第一个脚本已经成功执行过的情况下，打开终端输入：  
 docker load -i 空格  
-再将解压出的文件拖到终端里。  
-最终命令为：docker load -i 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui'
+再将解压出的tar文件拖到终端里。  
+最终命令为：docker load -i 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui-Rocm.tar'
 确认无误后，回车运行。
-需要导入一段时间，请耐心等待 ... ...
+需要导入一段时间，请耐心等待 ...
 执行完成后，再运行第二个脚本即可无需从DockerHub仓库下载，直接跳过下载步骤。
+运行第二个脚本时，请务必从脚本所在目录右键打开终端，在其他地方打开会提示找不到xxxx.sh文件。
 
 
 项目Github地址：
