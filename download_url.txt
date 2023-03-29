@@ -8,7 +8,7 @@ https://www.amd.com/zh-hans/support
 
 ## Docker镜像手动下载方法：
 Docker-StableDiffusionWebui-ROCm镜像地址：  
-https://cloud.189.cn/t/j6Bjmmy2Qveq (访问码:laz9)  
+《请等待重新打上传》
 没有baidu的会员，只能传这个了。  
 使用教程：  
 在Windows中下载三个分卷后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。  
