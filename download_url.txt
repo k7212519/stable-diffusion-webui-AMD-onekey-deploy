@@ -8,7 +8,7 @@ https://www.amd.com/zh-hans/support
 Docker-StableDiffusionWebui-ROCm镜像拉取地址：
 https://cloud.189.cn/t/j6Bjmmy2Qveq (访问码:laz9)
 使用教程：
-在Windows中下载后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。使用前请用sha256校验一下，和内部提供的sha256比对一下，避免文件损坏。
+在Windows中下载三个分卷后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。使用前请用sha256校验一下，和内部提供的sha256比对一下，避免文件损坏。
 确认文件完整性后，进入Ubuntu系统，复制该文件到主目录，在第一个脚本已经成功执行过的情况下，然后在主目录右键打开终端运行以下代码：
 docker import k7212519-stable-diffusion-webui
 执行完成后，再运行第二个脚本即可无需从DockerHub仓库下载，直接跳过下载步骤。
