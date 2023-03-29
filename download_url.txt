@@ -14,10 +14,9 @@ Docker-StableDiffusionWebui-ROCm镜像地址：
 在Windows中下载三个分卷后，解压出来，会得到一个"k7212519-stable-diffusion-webui"文件。  
 请尽量使用sha256校验一下"k7212519-stable-diffusion-webui"文件的完整性，和解压出来附带的文本文件内sha256进行比对，以确保文件完整性。不校验也性，但有一定概率文件损坏。 
 重启进入Ubuntu系统，在第一个脚本已经成功执行过的情况下，打开终端输入：  
-docker load 空格  
-再将解压出的文件拖到终端里  
-然后继续输入 空格 k7212519/stable-diffusion-webui  
-最终命令为：docker load 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui'
+docker load -i 空格  
+再将解压出的文件拖到终端里。  
+最终命令为：docker load -i 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui'
 确认无误后，回车运行。
 需要导入一段时间，请耐心等待 ... ...
 执行完成后，再运行第二个脚本即可无需从DockerHub仓库下载，直接跳过下载步骤。
