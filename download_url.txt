@@ -17,7 +17,7 @@ Docker-StableDiffusionWebui-ROCm镜像地址：
 docker load 空格  
 再将解压出的文件拖到终端里  
 然后继续输入 空格 k7212519/stable-diffusion-webui  
-最终命令为：docker load 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui':
+最终命令为：docker load 'XXXXX/XXXXXXX/k7212519-stable-diffusion-webui'
 确认无误后，回车运行。
 需要导入一段时间，请耐心等待 ... ...
 执行完成后，再运行第二个脚本即可无需从DockerHub仓库下载，直接跳过下载步骤。
