@@ -79,6 +79,7 @@ sudo mkdir /usr/share/stable-diffusion
 sudo cp $HOME/dockerx/sh/oneclick_start.sh /usr/share/stable-diffusion/
 sudo cp $HOME/dockerx/sh/sd.png /usr/share/icons/
 sudo cp $HOME/dockerx/sh/stable-diffusion.desktop $HOME/.local/share/applications/
+sudo chmod -R 777 $HOME/dockerx
 
 
 echo "\n\n"
