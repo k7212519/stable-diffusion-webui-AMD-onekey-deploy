@@ -1,7 +1,8 @@
 ![image](https://github.com/k7212519/stable-diffusion-webui-AMD-onekey-deploy/blob/main/screenshot/screenshot2.png)  
 
-# stable-diffusion-webui-AMD-onekey-deploy
-适用于AMD显卡用户在`Ubuntu`中，一键安装`stable-diffusion-webui`。软件基于`Docker`运行，不依赖外部环境。  
+# stable-diffusion-webui-AMD-onekey-deploy 
+（停用！已有新版本，请移步新仓库！）适用于AMD显卡用户在`Ubuntu`中，一键安装`stable-diffusion-webui`。软件基于`Docker`运行，不依赖外部环境。   
+https://github.com/k7212519/ksd-launcher
 
 ## 介绍
 1.该脚本适用于`AMD rx5000，rx6000`系列及其他专业显卡在`Ubuntu20`及以上版本系统中安装`stable-diffusion-webui`绘图软件。`rx500`及`rx400`系列暂未适配，请期待后续更新， `rx7000`系列好像不支持`ROCm`，暂时未知，等这一代专业卡发布，应该就会一起官方适配了。  
@@ -27,6 +28,8 @@ amdgpu-install -y --usecase=graphics,hip,rocm --no-dkms
 安装完成后，重新启动，在系统设置中看到显卡型号能正确识别后，再使用该脚本安装`stable-diffusion-webui`。  
 
 # stable-diffusion-webui-AMD-onekey-deploy
+(Deactivate! There is a new version, please move to the new repository! For AMD graphics card users, install 'stable-diffusion-webui' in 'Ubuntu' with one click. The software runs on 'Docker' and does not depend on the external environment.  
+https://github.com/k7212519/ksd-launcher) 
 For `AMD` graphics card users on `Ubuntu`, this script provides a one-click installation of the `stable-diffusion-webui` software. The software is based on Docker, which does not depend on external environments.
   
   
